@@ -23,7 +23,7 @@ The following functionality was tested:
 
 ## 📂 Project Structure
 qa-sauce-demo-project/ 
-- **[README.md/](./README.md/)**
+- **test-cases**
 - **[test-cases/](./test-cases/)**
 - **[checklists](./checklists)**
 - **[bug-reports/](./bug-reports/)**
