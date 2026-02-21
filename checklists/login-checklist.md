@@ -1,6 +1,6 @@
 # Login Checklist – Sauce Demo
 
- ## 🛡️ Positive scenarios
+ ## ✅ Positive scenarios 
 - [ ] Login with valid username and valid password
 - [ ] Successful redirect to Products page after login
 - [ ] Logout from application
