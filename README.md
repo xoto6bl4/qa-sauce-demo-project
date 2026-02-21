@@ -25,9 +25,9 @@ The following functionality was tested:
 qa-sauce-demo-project/ 
 - **[README.md/](./README.md/)**
 - **[test-cases/](./test-cases/)**
-- checklists/
-- bug-reports/
-- test-design/
+- **[checklists/](./checklists/)**
+- **[bug-reports/](./bug-reports/)**
+- **[test-design/](./test-design/)**
 
 ## 🧾 Test Artifacts
 - **Test cases** – detailed test scenarios for key functionality
