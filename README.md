@@ -22,8 +22,8 @@ The following functionality was tested:
 - Equivalence Partitioning
 
 ## 📂 Project Structure
-qa-sauce-demo-project/
-- README.md
+qa-sauce-demo-project/ 
+- **[README.md/](./README.md/)**
 - **[test-cases/](./test-cases/)**
 - checklists/
 - bug-reports/
