@@ -23,19 +23,11 @@ The following functionality was tested:
 
 ## 📂 Project Structure
 **[qa-sauce-demo-project](https://github.com/xoto6bl4/qa-sauce-demo-project)**
-- **[README.md](./README.md)**
-- **[test-cases](./test-cases)**
-- **[checklists](./checklists)**
-- **[bug-reports](./bug-reports)**
-- **[test-design](./test-design)**
-- 
-## 📂 Project Structure
-**[qa-sauce-demo-project](./qa-sauce-demo-project)**
-- **[README.md](./README.md)**
-- **[test-cases](./test-cases)**
-- **[checklists](./checklists)**
-- **[bug-reports](./bug-reports)**
-- **[test-design](./test-design)**
+- **[README.md](https://github.com/xoto6bl4/qa-sauce-demo-project/blob/main/README.md)**
+- **[test-cases](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/test-cases)**
+- **[checklists](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/checklists)**
+- **[bug-reports](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/bug-reports)**
+- **[test-design](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/test-design)**
 
 ## 🧾 Test Artifacts
 - **Test cases** – detailed test scenarios for key functionality
