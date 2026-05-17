@@ -47,4 +47,4 @@ The following functionality was tested:
 - Application URL: https://www.saucedemo.com/
 
 ## 👤 Kamalov Amal
-Manual QA Trainee  
+Manual QA Junior/Trainee  
