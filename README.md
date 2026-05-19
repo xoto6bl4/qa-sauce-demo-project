@@ -16,7 +16,7 @@ The following functionality was tested:
 ## 🛠 Testing Types Used
 - Functional testing
 - Smoke testing
-- Regression testing
+- Regression testing (after update)
 - Exploratory testing
 - Boundary Value Analysis
 - Equivalence Partitioning
