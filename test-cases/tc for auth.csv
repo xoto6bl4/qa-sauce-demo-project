@@ -1,4 +1,4 @@
-"ID","Title","Priority","Suite","Type"
+"ID","Title","Priority","Type"
 "C129","Successful Login - Standard User","High","QA Sauce Demo Project","Smoke & Sanity"
 "C130","Successful Login - Problem User","Medium","QA Sauce Demo Project","Functional"
 "C131","Successful Login - Performance Glitch User","Medium","QA Sauce Demo Project","Functional"
