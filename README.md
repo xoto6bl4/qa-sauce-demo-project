@@ -20,6 +20,10 @@ The following functionality was tested:
 - Exploratory testing
 - Boundary Value Analysis
 - Equivalence Partitioning
+- Performance testing
+- Security testing
+- Usability testing
+- Destructive testing
 
 ## 📂 Project Structure
 **[qa-sauce-demo-project](https://github.com/xoto6bl4/qa-sauce-demo-project)**
