@@ -39,6 +39,7 @@ The following functionality was tested:
 - GitHub
 - Jira (bug reporting practice)
 - Postman (basic API testing – optional)
+- TestRail
 - Chrome browser
 
 ## 🌐 Test Environment
