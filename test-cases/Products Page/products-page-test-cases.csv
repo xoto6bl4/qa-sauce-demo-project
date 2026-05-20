@@ -1,0 +1,35 @@
+ID,Title,Priority,Type
+C186,Verify Products Page Main UI Elements Are Displayed,High,Smoke testing
+C187,Verify Product Item Content Is Displayed Correctly,High,Functional testing
+C189,Verify Add and Remove Buttons Update Button State and Cart Badge,High,Functional testing
+C190,Verify Navigation to Product Details via Product Title,Medium,Functional testing
+C191,Verify Navigation to Product Details via Product Image,Medium,Functional testing
+C192,Verify Navigation to Shopping Cart from Products Page,High,Smoke testing
+C193,Verify Hamburger Menu Can Be Opened and Closed,Medium,Functional testing
+C194,Verify Reset App State Clears Cart State,High,Functional testing
+C195,Verify Cart Badge Is Hidden When Cart Is Empty,Medium,Functional testing
+C196,Verify All Items Menu Item Keeps User on Products Page,Low,Functional testing
+C197,Verify About Menu Item Redirects User to Sauce Labs Website,Low,Functional testing
+C198,Verify Logout from Products Page Ends User Session,High,Smoke testing
+C200,Verify Browser Back Button Does Not Restore Products Page After Logout,High,Security testing
+C201,Verify Direct Access to Products Page Without Active Session Is Blocked,High,Security testing
+C203,Verify Hamburger Menu Is Visible and Usable on Products Page,Medium,Usability testing
+C205,Verify Locked Out User Cannot Access Products Page,High,Security testing
+C207,Verify Product Image Issues for Problem User,Medium,Functional testing
+C208,Verify Product Data Mapping Issues for Problem User,Medium,Functional testing
+C209,Verify Add to Cart Issue for Error User,High,Functional testing
+C210,Verify Remove Button Issue for Error User,High,Functional testing
+C211,Verify Visual Layout Issues for Visual User,Medium,Usability testing
+C213,Verify Products Page Load Time Difference Between Standard and Performance Glitch Users,Low,Performance testing
+C215,Verify Sorting by Name A to Z,High,Functional testing
+C216,Verify Sorting by Name Z to A,High,Functional testing
+C217,Verify Sorting by Price Low to High,High,Functional testing
+C218,Verify Sorting by Price High to Low,High,Functional testing
+C219,Verify Rapid Sorting Changes Do Not Break Product List State,Medium,Destructive testing
+C223,Verify Product Page UI Labels Are Clear and Understandable,Low,Usability testing
+C224,Verify Product Information Readability and Contrast,Low,Usability testing
+C225,Verify Cart Badge Is Clearly Visible After Adding Product,Medium,Usability testing
+C228,Verify Rapid Add and Remove Clicks Do Not Break Cart State,Medium,Destructive testing
+C231,Verify Cart State Persists After Products Page Refresh,Medium,Functional testing
+C232,Verify Product Button State Persists After Navigation Back to Products Page,Medium,Functional testing
+C233,Verify Multiple Products Can Be Added to Cart,High,Functional testing
