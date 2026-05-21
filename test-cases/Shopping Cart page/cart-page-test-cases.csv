@@ -1,0 +1,29 @@
+﻿ID,Title,Priority,Type
+C238,Verify Checkout button redirects standard_user from Cart page to Checkout Step One page,High,Smoke & Sanity
+C239,Verify Continue Shopping Navigation for performance_glitch_user,Medium,Performance
+C240,Verify Checkout Navigation for performance_glitch_user,Medium,Performance
+C241,Verify rapid repeated clicks on Cart navigation buttons do not break page behavior,Medium,Destructive
+C242,Verify Browser Back Button Returns User to Cart from Navigation Targets,Medium,Functional
+C243,Verify one added product is displayed correctly on Cart page,High,Functional
+C244,Verify Empty Cart State Is Displayed Correctly,Medium,Functional
+C245,Verify removing one item from a multi-item Cart updates item list and cart badge,High,Functional
+C246,Verify Removing Last Item Clears Cart,Medium,Functional
+C247,Verify error_user can remove an item from Cart correctly,Medium,Functional
+C248,Verify no console errors occur when error_user removes an item from Cart,Medium,Functional
+C250,Verify Cart page displays main UI elements correctly,Medium,Usability
+C254,Verify Standard Cart Page Layout Alignment,Medium,Usability
+C255,Verify Cart page visual layout for visual_user,Medium,Usability
+C257,Verify unauthenticated user cannot access Cart page directly,High,Security
+C258,Verify standard_user can access Cart page with selected items,High,Functional
+C260,Verify user is redirected to Login page after accessing Cart with cleared session,High,Security
+C261,Verify Cart State Persists After Page Refresh,High,Functional
+C263,Verify Cart page cannot be accessed through browser history after logout,High,Security
+C264,Verify Cart page layout and core actions work correctly in supported browsers,Medium,Functional
+C265,Verify Cart Item Information Is Readable and Visually Clear,Medium,Usability
+C266,Verify Cart page buttons provide visible feedback after click,Low,Usability
+C267,Verify Cart page loads selected items correctly for performance_glitch_user,Medium,Performance
+C268,Verify Cart page remains responsive during performance_glitch_user loading delay,Medium,Performance
+C269,Verify rapid double-click on Remove button removes item only once,Medium,Destructive
+C270,Verify Cart page layout remains usable on different screen resolutions,Medium,Usability
+C272,"Verify product names, descriptions, prices, and quantities are consistent between Products page and Cart page for all products",High,Functional
+C274,Verify Cart page displays selected products correctly for problem_user,Medium,Functional
