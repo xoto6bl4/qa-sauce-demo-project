@@ -1,0 +1,36 @@
+﻿ID,Title,Priority,Type
+C276,Single Item Data Accuracy,Medium,Functional testing
+C277,Multiple Items Data Accuracy,Medium,Functional testing
+C278,Item Total Calculation Logic,High,Functional testing
+C279,Verify Tax Is Calculated Consistently Based on Item Total,High,Functional testing
+C280,Grand Total Calculation Logic,High,Functional testing
+C281,Finish Button Navigation,High,Functional testing
+C282,Cancel Button Navigation from Checkout Overview,Medium,Functional testing
+C283,Page Refresh Persistence,Medium,Functional testing
+C284,Browser History Navigation Persistence,Medium,Functional testing
+C285,Successful Form Submission with Valid Data,High,Functional testing
+C286,Mandatory Field Validation - Missing First Name,High,Functional testing
+C287,Mandatory Field Validation - Missing Last Name,High,Functional testing
+C288,Mandatory Field Validation - Missing Zip Code,High,Functional testing
+C289,Mandatory Field Validation - All Fields Empty,High,Functional testing
+C290,Whitespace-Only Input Handling,Medium,Functional testing
+C291,Extreme String Length Handling,Medium,Destructive testing
+C292,Special Character Handling,Medium,Functional testing
+C293,Script and HTML Injection Prevention,High,Security testing
+C294,SQL Injection Pattern Handling,High,Security testing
+C297,Back Home Navigation Redirect,Medium,Functional testing
+C298,Cart State Reset After Completion,High,Functional testing
+C299,Browser Back Navigation After Order Completion,Medium,Destructive testing
+C300,Direct URL Access to Checkout Complete Without Completed Order,Medium,Security testing
+C301,Standard User Baseline Checkout Success,High,Smoke testing
+C302,Checkout Page Loading Behavior for Performance Glitch User,Medium,Performance testing
+C303,Performance Glitch - Overview Page Transition Delay,Medium,Performance testing
+C304,Problem User - Field Input Restriction,High,Functional testing
+C305,Checkout Completion Behavior for Error User,High,Functional testing
+C306,Checkout Pages Visual Consistency for Visual User,Medium,Usability testing
+C308,Checkout Behavior with Empty Cart via Direct URL,Low,Functional testing
+C310,Cancel Button Navigation from Checkout Information Page,Medium,Functional testing
+C311,Error Message UI Visibility and Updates,Medium,Usability testing
+C313,Verify checkout form behavior with international characters in name fields,Low,Functional testing
+C314,Zip Code Field Handling with Different Non-Empty Values,Low,Functional testing
+C316,Repeated Continue Button Click Handling,Medium,Destructive testing
