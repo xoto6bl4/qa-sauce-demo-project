@@ -18,8 +18,6 @@ The following functionality was tested:
 - Smoke testing
 - Regression testing (after update)
 - Exploratory testing
-- Boundary Value Analysis
-- Equivalence Partitioning
 - Performance testing
 - Security testing
 - Usability testing
