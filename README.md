@@ -1,9 +1,12 @@
 # QA Sauce Demo Project
 
 ## 📌 Project Overview
-This is a manual QA testing project for an e-commerce demo web application **Sauce Demo**.
-The project demonstrates skills in test analysis, test design, test case creation,
-bug reporting, and basic understanding of the SDLC and QA processes.
+
+This is a manual QA testing project for the e-commerce demo web application **Sauce Demo**.
+
+The project covers the main user flows, including authentication, product catalog, shopping cart, checkout process, navigation, session handling, and basic UI/usability checks.
+
+It demonstrates practical skills in test analysis, test design, test case creation, bug reporting, test documentation, and understanding of SDLC, STLC, and QA processes.
 
 ## 🧪 Scope of Testing
 The scope of testing covers the main user flow and core functionality of the Sauce Demo web application, including authentication, product browsing, cart management, checkout process, navigation, session behavior, and basic UI/usability checks.
@@ -37,12 +40,14 @@ The tested areas include:
 ## 🛠 Testing Types Used
 - Functional testing
 - Smoke testing
-- Regression testing (after update)
+- Exploratory testing for user-specific behavior and edge cases
 - Exploratory testing
 - Performance testing
 - Security testing
 - Usability testing
 - Destructive testing
+- UI testing
+- Session testing
 
 ## 📂 Project Structure
 **[qa-sauce-demo-project](https://github.com/xoto6bl4/qa-sauce-demo-project)**
@@ -53,10 +58,12 @@ The tested areas include:
 - **[test-design](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/test-design)**
 
 ## 🧾 Test Artifacts
-- **Test cases** – detailed test scenarios for key functionality
-- **Checklists** – high-level checks for quick validation
-- **Bug reports** – documented defects with steps to reproduce
-- **Test design** – boundary values and equivalence classes
+- **Test Cases** – detailed scenarios for Login, Products, Cart, and Checkout flows.
+- **Test Case Summary CSVs** – structured tables with ID, title, priority, and testing type.
+- **Checklists** – quick validation coverage for main application areas.
+- **Bug Reports** – defects documented with steps, actual result, expected result, severity, and priority.
+- **Test Design Notes** – equivalence classes, negative scenarios, edge cases, user-specific behavior, and destructive testing ideas.
+- **Test Data** – Sauce Demo users, valid/invalid credentials, checkout data, and product/cart data.
 
 ## 🧰 Tools Used
 - GitHub
