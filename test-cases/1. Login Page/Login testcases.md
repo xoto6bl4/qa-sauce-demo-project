@@ -767,7 +767,7 @@
 1. The login page loads successfully with the username, password, and login button visible.
 2. The credentials are typed into the respective input fields.
 3. The browser indicates an offline status or no active internet connection.
-4. The application should not crash; it should either display a browser-level network error or a graceful application-level error message indicating a connection failure.
+4. The application may continue to work using already loaded client-side resources. Since Sauce Demo is a demo application, login, cart, and checkout actions may still be available without active network connection after the page has been loaded.
 5. The network connection is active again.
 6. The login request is processed successfully, and the user is redirected to the inventory page (https://www.saucedemo.com/inventory.html).
 
