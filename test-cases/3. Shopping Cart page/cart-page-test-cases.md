@@ -36,6 +36,7 @@ Scope: **Cart Page / Shopping Cart functionality**
 | C270 | Verify Cart page layout remains usable on different screen resolutions | Medium | Usability |
 | C272 | Verify product names, descriptions, prices, and quantities are consistent between Products page and Cart page for all products | High | Functional |
 | C274 | Verify Cart page displays selected products correctly for problem_user | Medium | Functional |
+| C317 | Verify Reset App State clears visible cart items from Cart page | Medium | Functional |
 
 ## Detailed Test Cases
 
@@ -506,3 +507,21 @@ Scope: **Cart Page / Shopping Cart functionality**
 | 2 | Compare the names of the items in the cart list with the items added in Step 1. | The item names match 'Sauce Labs Backpack' and 'Sauce Labs Fleece Jacket' exactly. (Note: Problem user may display incorrect images or names; verify if the cart reflects the intended selection). |
 | 3 | Verify the prices displayed for both items in the cart. | The prices match the inventory data: Backpack should be $29.99 and Fleece Jacket should be $49.99. |
 | 4 | Click on the item name link for 'Sauce Labs Backpack' within the cart. | The user is redirected to the correct item detail page. (Note: Problem user often experiences broken links or 404 errors when clicking product titles). |
+
+### C317 - Verify Reset App State clears visible cart items from Cart page
+
+**Priority:** Medium
+
+**Type:** Functional
+
+**Preconditions:**
+
+- User is logged in as standard_user. At least one product is added to the cart. User is on the Cart page: https://www.saucedemo.com/cart.html.
+
+| Step # | Step | Expected Result |
+|---:|---|---|
+| 1 | Observe the Cart page and the shopping cart badge. | The added product is displayed in the cart item list, and the cart badge shows the correct number of added items. |
+| 2 | Click the burger menu button in the top-left corner. | The side menu opens and displays menu options: All Items, About, Logout, and Reset App State. |
+| 3 | Click Reset App State. | The application resets the cart state. |
+| 4 | Observe the shopping cart badge. | The cart badge is removed or no longer displays an item count. |
+| 5 | Observe the cart item list on the Cart page without refreshing the page. | 	The cart item list becomes empty immediately. No previously added products remain visible. |
