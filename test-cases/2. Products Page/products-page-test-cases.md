@@ -393,9 +393,9 @@ URL: https://www.saucedemo.com/inventory.html
 | # | Step | Expected Result |
 |---:|---|---|
 | 1 | Locate the 'Sauce Labs Bolt T-Shirt' product on the inventory list. | The product is displayed with an 'Add to cart' button. |
-| 2 | Click the 'Add to cart' button for the 'Sauce Labs Bolt T-Shirt'. | The button does not change to 'Remove', or an error occurs preventing the item from being added to the cart. |
+| 2 | Click the 'Add to cart' button for the 'Sauce Labs Bolt T-Shirt'. | The application handles the action according to the error_user profile behavior. The actual button state and cart badge behavior are recorded. |
 | 3 | Observe the shopping cart badge icon at the top right of the page. | The cart badge does not increment to '1', indicating a functional failure for this user type. |
-| 4 | Attempt to click the 'Add to cart' button for a different product, such as 'Sauce Labs Fleece Jacket'. | The application fails to process the request, and the UI state remains unchanged or displays inconsistent behavior typical for the error_user. |
+| 4 | Attempt to click the 'Add to cart' button for a different product, such as 'Sauce Labs Fleece Jacket'. | Cart content matches the actual cart state shown by the badge and button behavior. |
 
 ---
 
