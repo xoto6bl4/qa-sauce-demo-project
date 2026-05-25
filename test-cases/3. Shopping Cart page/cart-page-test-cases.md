@@ -500,14 +500,14 @@ Scope: **Cart Page / Shopping Cart functionality**
 
 **Preconditions:**
 
-- Log in to Sauce Demo as 'problem_user' and add 'Sauce Labs Backpack' ($29.99) and 'Sauce Labs Fleece Jacket' ($49.99) to the cart from the inventory page. Expected initial state: Items are added to the cart; the shopping cart badge displays '2'.
+- Log in to Sauce Demo as 'problem_user' and add 'Sauce Labs Backpack' ($29.99) and 'Sauce Labs Bike Light' ($9.99) to the cart from the inventory page. Expected initial state: Items are added to the cart; the shopping cart badge displays '2'.
 
 | Step # | Step | Expected Result |
 |---:|---|---|
 | 1 | Click on the shopping cart icon to navigate to the Cart page (https://www.saucedemo.com/cart.html). | The Cart page loads. The URL is exactly 'https://www.saucedemo.com/cart.html '. |
-| 2 | Compare the names of the items in the cart list with the items added in Step 1. | The item names match 'Sauce Labs Backpack' and 'Sauce Labs Fleece Jacket' exactly. (Note: Problem user may display incorrect images or names; verify if the cart reflects the intended selection). |
-| 3 | Verify the prices displayed for both items in the cart. | The prices match the inventory data: Backpack should be $29.99 and Fleece Jacket should be $49.99. |
-| 4 | Click on the item name link for 'Sauce Labs Backpack' within the cart. | The user is redirected to the correct item detail page. (Note: Problem user often experiences broken links or 404 errors when clicking product titles). |
+| 2 | Compare the names of the items in the cart list with the items added in Step 1. | The item names match 'Sauce Labs Backpack' and 'Sauce Labs Bike Light' exactly. (Note: Problem user may display incorrect images or names). |
+| 3 | Verify the prices displayed for both items in the cart. | The prices match the inventory data: Backpack should be $29.99, and Bike Light should be $9.99. |
+| 4 | Click on the item name link for 'Sauce Labs Backpack' within the cart. | The user is redirected to the correct item detail page. |
 
 ### C317 - Verify Reset App State clears visible cart items from Cart page
 
