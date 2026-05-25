@@ -402,10 +402,9 @@ Scope: **Cart Page / Shopping Cart functionality**
 
 | Step # | Step | Expected Result |
 |---:|---|---|
-| 1 | Hover the mouse cursor over the 'Remove' button and then click it. | The button provides immediate visual feedback (such as a change in background color or border) upon hovering and clicking, and the item is removed from the list. |
-| 2 | Add another item to the cart to restore the 'Checkout' button visibility, return to the Cart page, and hover over the 'Checkout' button. | The 'Checkout' button changes its visual state (e.g., color shift) to indicate it is an interactive element. |
-| 3 | Click the 'Checkout' button. | The button provides immediate visual feedback upon the click event before the application navigates to the 'Checkout: Your Information' page. |
-| 4 | Hover over and click the 'Continue Shopping' button. | The button displays a clear visual state change (e.g., color inversion or darkening) indicating the click was registered before navigating back to the products page. |
+| 1 | Hover the mouse cursor over the 'Remove' button and then click it. | The button provides immediate visual feedback upon hovering and clicking, and the item is removed from the list. |
+| 2 | Click the 'Checkout' button. | The button provides immediate visual feedback upon the click event before the application navigates to the 'Checkout: Your Information' page. |
+| 3 | Hover over and click the 'Cancel' button and then 'Continue Shopping' button. | The button displays a clear visual state change indicating the click was registered before navigating back to the products page. |
 
 ### C267 - Verify Cart page loads selected items correctly for performance_glitch_user
 
