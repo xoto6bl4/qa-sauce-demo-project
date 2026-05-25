@@ -268,10 +268,12 @@ Scope: **Cart Page / Shopping Cart functionality**
 
 | Step # | Step | Expected Result |
 |---:|---|---|
-| 1 | Inspect the 'Your Cart' header and the cart table headers (QTY, Description) for alignment and spacing. | Text should be properly aligned within its containers; no overlapping or unusual padding should be observed. |
-| 2 | Examine the 'Remove' button, 'Continue Shopping' button, and 'Checkout' button for visual integrity. | Buttons should have consistent sizing, legible text, and should not overlap with other UI elements or the page footer. |
-| 3 | Verify the placement and styling of the product name, description, and price for the added item. | Product details should be clearly visible and follow the standard CSS styling without broken layouts or truncated text. |
-| 4 | Check the shopping cart badge icon in the top right corner of the page. | The badge should be correctly positioned over the cart icon and should not appear detached or distorted. |
+| 1 | Inspect the 'Your Cart' header and the cart table headers (QTY, Description) for alignment and spacing. | Headers are visible, but spacing, alignment, or positioning may differ from the standard layout. |
+| 2 | Check the displayed cart item: product name, description, price, and quantity. | Product data is visible, but some spacing or alignment issues may be present. |
+| 3 | Observe the Remove button for the cart item. | The Remove button is visible and usable, but it may be misaligned or visually inconsistent. |
+| 4 | Observe the Continue Shopping and Checkout buttons. | Buttons are visible and clickable, but their placement may be visually incorrect. For visual_user, the Checkout button may appear shifted to the top-right area instead of being aligned with the standard cart page layout. |
+| 5 | Check the shopping cart badge icon in the top-right corner. | The cart badge is visible, but it may appear shifted, detached, or visually inconsistent with the standard layout. |
+| 6 | Compare the Cart page layout with the same page opened as standard_user. | Visual differences specific to visual_user are documented, such as misplaced buttons, abnormal spacing, shifted badge, or inconsistent alignment. |
 
 ### C257 - Verify unauthenticated user cannot access Cart page directly
 
