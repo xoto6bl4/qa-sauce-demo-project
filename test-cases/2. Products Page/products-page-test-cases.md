@@ -429,10 +429,13 @@ URL: https://www.saucedemo.com/inventory.html
 
 | # | Step | Expected Result |
 |---:|---|---|
-| 1 | Observe the alignment and positioning of the 'Add to Cart' buttons across all product items in the grid. | Buttons should be uniformly aligned; however, for 'visual_user', specific buttons (like the one for the Sauce Labs Backpack) may appear shifted or misaligned. |
-| 2 | Inspect the product images for any distortion, incorrect aspect ratios, or overlapping with the product names. | Images should be clear and correctly scaled; for this user, some images may appear stretched or incorrectly positioned within their containers. |
-| 3 | Verify the spacing and alignment of the price tags and product descriptions for each item. | Text elements should be properly padded and aligned; for 'visual_user', some prices or descriptions may overlap with other UI components. |
-| 4 | Open the hamburger menu and check the alignment of the menu items and the 'X' close button. | The menu should overlay the page correctly with centered text; for this user, the menu items or the close button may appear off-center or visually broken. |
+| 1 | Observe the Products page header, including the logo, burger menu, page title, sorting dropdown, and cart icon. | Header elements are visible and usable. Some visual differences or alignment issues may be present for visual_user. |
+| 2 | Observe the product cards in the inventory list. | Product cards are displayed, but some spacing or alignment issues may be visible compared to the standard layout. |
+| 3 | Check product images, product names, descriptions, and prices. | Product information is visible, but some elements may have abnormal spacing, shifted positioning, or visual inconsistency. |
+| 4 | Check the position of Add to cart buttons for several products. | Some Add to cart buttons may appear misaligned, shifted, or placed inconsistently within product cards. |
+| 5 | Observe the shopping cart badge. | The cart badge appears, but it may be visually shifted, incorrectly positioned, or inconsistent with the standard layout. |
+| 6 | Open the burger menu. | The side menu opens and remains usable. Some spacing or alignment differences may be visible for visual_user. |
+| 7 | Close the burger menu using the X button. | The menu closes, and the user remains on the Products page. |
 
 ---
 
