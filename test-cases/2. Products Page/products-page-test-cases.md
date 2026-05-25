@@ -607,7 +607,7 @@ URL: https://www.saucedemo.com/inventory.html
 |---:|---|---|
 | 1 | Click the 'Add to cart' button for any product (e.g., Sauce Labs Backpack). | A red circular badge appears over the shopping cart icon containing the number '1'. The badge is high-contrast and clearly legible against the header background. |
 | 2 | Add two more different products to the cart. | The badge counter updates immediately to '3'. The text remains centered within the badge and is easy to read. |
-| 3 | Scroll down to the bottom of the products list. | The header remains fixed at the top of the screen (or is easily accessible), ensuring the cart badge remains visible to the user regardless of page position. |
+| 3 | Scroll down to the bottom of the products list and observe the header/cart icon behavior. | The page scrolls normally. If the header is not fixed, the cart badge may move out of the visible viewport together with the header. This behavior should be documented as actual UI behavior, not treated as a defect unless sticky header behavior is required. |
 | 4 | Click the 'Remove' button for one of the added products. | The badge counter immediately updates to '2', maintaining its visual prominence and correct numerical state. |
 
 ---
