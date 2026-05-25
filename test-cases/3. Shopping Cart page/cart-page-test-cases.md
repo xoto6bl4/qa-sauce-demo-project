@@ -170,7 +170,7 @@ Scope: **Cart Page / Shopping Cart functionality**
 | 3 | Observe the remaining items in the cart list. | The 'Sauce Labs Bike Light' remains visible in the cart list with its correct details. |
 | 4 | Check the shopping cart badge count in the header. | The shopping cart badge count is updated to '1'. |
 
-### C246 - Verify Removing Last Item Clears Cart
+### C246 - Remove Last Item in Cart
 
 **Priority:** Medium
 
@@ -183,7 +183,7 @@ Scope: **Cart Page / Shopping Cart functionality**
 | Step # | Step | Expected Result |
 |---:|---|---|
 | 1 | Locate the 'Remove' button for the single item present in the cart and click it. | The item is immediately removed from the cart item list area. |
-| 2 | Observe the shopping cart icon badge at the top right of the page. | The shopping cart badge is no longer visible, indicating a count of zero. |
+| 2 | Observe the shopping cart icon badge at the top right of the page. | The shopping cart badge number is no longer visible. |
 | 3 | Verify the state of the cart item list area. | The cart item list area is empty; no product names, descriptions, or prices are displayed. |
 | 4 | Verify that the 'Continue Shopping' and 'Checkout' buttons are still visible and functional. | Both buttons remain on the page, allowing the user to navigate away from the empty cart. |
 
