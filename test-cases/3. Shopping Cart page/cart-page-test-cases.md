@@ -452,7 +452,7 @@ Scope: **Cart Page / Shopping Cart functionality**
 |---:|---|---|
 | 1 | Add 'Sauce Labs Backpack' to the cart and click on the Shopping Cart icon. | The Cart page (/cart.html) opens, displaying one item: 'Sauce Labs Backpack'. |
 | 2 | Locate the 'Remove' button for the 'Sauce Labs Backpack' and perform a rapid double-click on it. | The item is removed from the cart list immediately after the first click registered. |
-| 3 | Observe the Cart item list and the Shopping Cart badge count. | The item list is empty, the Shopping Cart badge disappears (or shows 0), and no UI errors or 'Item not found' exceptions are displayed. |
+| 3 | Observe the Cart item list and the Shopping Cart badge count. | The item list is empty, and the Shopping Cart badge disappears. |
 | 4 | Refresh the page and verify the cart state. | The cart remains empty, confirming the removal was processed correctly and only once. |
 
 ### C270 - Verify Cart page layout remains usable on different screen resolutions
