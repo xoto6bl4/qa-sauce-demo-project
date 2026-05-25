@@ -150,7 +150,7 @@ Scope: **Cart Page / Shopping Cart functionality**
 |---:|---|---|
 | 1 | Ensure no items are added to the cart (if items exist, click 'Remove' for each item) and click on the Shopping Cart icon. | The user is redirected to the Cart page (https://www.saucedemo.com/cart.html). |
 | 2 | Observe the cart item list area below the 'QTY' and 'Description' headers. | The cart list area is empty; no product rows or item containers are visible. |
-| 3 | Inspect the Shopping Cart icon at the top right of the header. | The shopping cart badge (the red circle with a number) is not visible, indicating a count of zero. |
+| 3 | Inspect the Shopping Cart icon at the top right of the header. | The shopping cart badge (the red circle with a number) is not visible. |
 | 4 | Verify the presence and state of the primary navigation buttons. | The 'Continue Shopping' and 'Checkout' buttons are still visible and functional even when the cart is empty. |
 
 ### C245 - Verify removing one item from a multi-item Cart updates item list and cart badge
