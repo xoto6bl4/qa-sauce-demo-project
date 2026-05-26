@@ -52,10 +52,11 @@ The tested areas include:
 ## 📂 Project Structure
 **[qa-sauce-demo-project](https://github.com/xoto6bl4/qa-sauce-demo-project)**
 - **[README.md](https://github.com/xoto6bl4/qa-sauce-demo-project/blob/main/README.md)**
-- **[test-cases](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/test-cases)**
-- **[checklists](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/checklists)**
-- **[bug-reports](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/bug-reports)**
-- **[test-design](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/test-design)**
+- **[01-checklists](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/01-checklists)**
+- **[02-test-design](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/02-test-design)**
+- **[03-test-cases](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/03-test-cases)**
+- **[04-test-runs](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/04-test-runs)**
+- **[05-bug-reports](https://github.com/xoto6bl4/qa-sauce-demo-project/tree/main/05-bug-reports)**
 
 ## 🧾 Test Artifacts
 - **Test Cases** – detailed scenarios for Login, Products, Cart, and Checkout flows.
