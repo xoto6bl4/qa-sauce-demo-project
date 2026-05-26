@@ -417,7 +417,7 @@ URLs:
 | Enter 'Harry' in First Name, 'Potter' in Last Name, '12345' in Zip Code, and click 'Continue'. | The user is redirected to the 'Checkout: Overview' page. |
 | Click the 'Finish' button. | The user is redirected to the 'Checkout: Complete' page showing the 'Thank you for your order!' message. |
 | Click the browser's 'Back' button. | The user is returned to the 'Checkout: Overview' page, but the cart is empty and the page state reflects that the transaction is no longer active. |
-| Click the 'Finish' button again on the Overview page. | The system does not process a duplicate order; the user is either redirected to the Products page or the Checkout Complete page without a new transaction being recorded (cart remains empty). |
+| Click the Finish button again on the Checkout Overview page after returning with the browser Back button. | The application handles the repeated finish action without crashing, freezing, or displaying inconsistent UI. The user is redirected to the Checkout Complete page again, and the cart remains empty. |
 
 ## C300 — Direct URL Access to Checkout Complete Without Completed Order
 
