@@ -482,7 +482,7 @@ URLs:
 | Step | Expected Result |
 |---|---|
 | Enter valid information: First Name 'Harry', Last Name 'Potter', and Zip Code '12345'. | The fields are populated with the entered data. |
-| Click the 'Continue' button and observe the transition time to the next page. | There is a noticeable delay before the page changes, but the application does not crash or time out. |
+| Click the 'Continue' button and observe the transition time to the next page. | The application completes the navigation successfully. The page loads without crashing, timing out, or displaying an error. If a delay occurs, it should not break the flow. |
 | Verify the state of the application after the delay. | The user is eventually redirected to the 'Checkout: Overview' page (Step Two), and all order details (Item Total, Tax, Total) are displayed correctly. |
 | Click the 'Finish' button. | The order is completed successfully, and the 'Checkout: Complete' page is displayed with the confirmation message. |
 
