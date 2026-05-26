@@ -129,7 +129,7 @@ URLs:
 | Log in to Sauce Demo as 'standard_user', add multiple items to the cart, and navigate to the 'Checkout: Your Information' page. | The user is on the 'Checkout: Your Information' page. |
 | Enter valid information (First Name: Harry, Last Name: Potter, Zip Code: 12345) and click the 'Continue' button. | The user is redirected to the 'Checkout: Overview' page. |
 | Locate the 'Item total' value (sum of individual item prices) and the 'Tax' value displayed in the summary info. | Both values are clearly visible and formatted as currency (e.g., Item total: $XX.XX, Tax: $X.XX). |
-| Manually add the 'Item total' value and the 'Tax' value together. | The sum of 'Item total' and 'Tax' is calculated. |
+| Manually calculate the sum of item total and Tax. | The calculated sum is obtained and can be compared with the displayed Total value. |
 | Compare the calculated sum with the value displayed next to the 'Total' label at the bottom of the summary. | The 'Total' value displayed on the page exactly matches the sum of the 'Item total' and 'Tax'. |
 
 ## C281 — Finish Button Navigation
