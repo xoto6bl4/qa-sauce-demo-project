@@ -534,21 +534,22 @@ URLs:
 | Enter valid data (First Name: Harry, Last Name: Potter, Zip Code: 12345) and click the 'Continue' button. | The 'Checkout: Overview' page (checkout-step-two.html) loads. |
 | Observe the layout of the 'Cancel' and 'Finish' buttons at the bottom of the page. | The 'Finish' button or other UI elements on the overview page show visual inconsistencies or alignment issues specific to the visual_user profile. |
 
-## C308 — Checkout Behavior with Empty Cart via Direct URL
+## C308 — Verify checkout cannot be completed with an empty cart
 
-**Priority:** Low
+**Priority:** Medium
 **Type:** Functional testing
 
 **Preconditions:**
-- Log in to https://www.saucedemo.com/ as a 'standard_user'
+- User is logged in as standard_user.
+- Cart is empty.
+- User is on the Cart page: https://www.saucedemo.com/cart.html.
 
 | Step | Expected Result |
 |---|---|
-| Navigate directly to the Checkout Step One page (https://www.saucedemo.com/checkout-step-one.html without adding any items to the cart. | The 'Checkout: Your Information' page is displayed; the shopping cart badge is empty. |
-| Enter 'Harry' in the First Name field, 'Potter' in the Last Name field, and '12345' in the Zip/Postal Code field. | The input fields are populated with the provided data. |
-| Click the 'Continue' button. | The user is redirected to the 'Checkout: Overview' page (Step Two). |
-| Observe the 'Payment Information', 'Shipping Information', and 'Price Total' sections. | The 'Item total' is displayed as '$0.00', 'Tax' is displayed as '$0.00', and the 'Total' is displayed as '$0.00'. |
-| Click the 'Finish' button. | The user is redirected to the 'Checkout: Complete' page, displaying the 'Thank you for your order!' message, confirming the system allows a zero-value checkout. |
+| Click the Checkout button. | The application should prevent checkout from starting with an empty cart or display a message that at least one product must be added before checkout. |
+| If the application redirects to Checkout: Your Information, enter valid checkout data: First Name Harry, Last Name Potter, Zip Code 12345. | The input fields accept the entered values. |
+| Click the 'Continue' button. | The application should prevent the user from proceeding to Checkout Overview with an empty cart or display a validation/error message. |
+| If the application redirects to Checkout: Overview, click the Finish button. | The application should not complete checkout with an empty cart and should not display the order confirmation page. |
 
 ## C310 — Cancel Button Navigation from Checkout Information Page
 
