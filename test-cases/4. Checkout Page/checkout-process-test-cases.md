@@ -194,7 +194,7 @@ URLs:
 |---|---|
 | Log in to Sauce Demo as 'standard_user', add any item to the cart, and proceed to the 'Checkout: Your Information' page. | The 'Checkout: Your Information' page (checkout-step-one.html) is displayed. |
 | Enter 'Harry' for First Name, 'Potter' for Last Name, and '12345' for Zip/Postal Code, then click the 'Continue' button. | The user is redirected to the 'Checkout: Overview' page (checkout-step-two.html) showing the item details and price total. |
-| Click the browser's 'Back' button. | The browser returns to the 'Checkout: Your Information' page; the input fields (First Name, Last Name, Zip Code) should still contain the previously entered data. |
+| Click the browser's 'Back' button. | The browser returns to the 'Checkout: Your Information' page. The application should handle the navigation without errors, broken layout, or inconsistent checkout state. The form fields may be cleared if the application does not persist checkout information. |
 | Click the browser's 'Forward' button. | The browser returns to the 'Checkout: Overview' page; the correct item details, payment information, and total price are still displayed. |
 | Click the 'Finish' button. | The order is successfully processed, and the user is redirected to the 'Checkout: Complete' page (checkout-complete.html). |
 
