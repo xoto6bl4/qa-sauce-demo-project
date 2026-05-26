@@ -40,7 +40,7 @@ URLs:
 | C304 | Problem User - Field Input Restriction | High | Functional testing |
 | C305 | Checkout Completion Behavior for Error User | High | Functional testing |
 | C306 | Checkout Pages Visual Consistency for Visual User | Medium | Usability testing |
-| C308 | Checkout Behavior with Empty Cart via Direct URL | Low | Functional testing |
+| C308 | Verify checkout cannot be completed with an empty cart | Medium | Functional testing |
 | C310 | Cancel Button Navigation from Checkout Information Page | Medium | Functional testing |
 | C311 | Error Message UI Visibility and Updates | Medium | Usability testing |
 | C313 | Verify checkout form behavior with international characters in name fields | Low | Functional testing |
