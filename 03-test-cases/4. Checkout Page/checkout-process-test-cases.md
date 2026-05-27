@@ -515,8 +515,13 @@ URLs:
 
 | Step | Expected Result |
 |---|---|
-| Enter valid information (First Name: Harry, Last Name: Potter, Zip Code: 12345) and click 'Continue'. | The 'Checkout: Overview' page (Step Two) is displayed, showing the item total, tax, and total price. |
-| Click the 'Finish' button. | The system fails to redirect to the 'Checkout: Complete' page; instead, a functional error occurs (such as the page remaining on the overview or an error message appearing) because the 'error_user' is designed to encounter failures during the final checkout step. |
+| Enter 'Harry' into the 'First Name' field. | The text 'Harry' is visible in the First Name input field. |
+| Attempt to enter 'Potter' into the 'Last Name' field. | The 'Last Name' field remains empty or does not accept the input, which is a known defect for the 'error_user'. |
+| Enter '12345' into the 'Zip/Postal Code' field. | The text '12345' is visible in the Zip/Postal Code input field. |
+| Attempt to click the 'Continue' button. | The user is redirected to the Checkout: Overview page even though the Last Name field is empty. |
+| Observe the Checkout Overview page. | The selected product, payment information, shipping information, item total, tax, and total are displayed. |
+| Attempt to click the Finish button. | The order is not completed. The user remains on the Checkout Overview page, or the Finish button does not trigger navigation to the Checkout Complete page. |
+| Observe the current URL and page state. | The user is not redirected to checkout-complete.html, and no order confirmation message is displayed. |
 
 ## C306 — Checkout Pages Visual Consistency for Visual User
 
