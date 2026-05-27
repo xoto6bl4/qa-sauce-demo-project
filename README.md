@@ -81,8 +81,10 @@ The tested areas include:
   ## ⚠️ Limitations
 
 - API testing was not included because Sauce Demo does not provide a public REST API for this project scope.
-- Real payment processing, order history, and backend validation were not tested because they are not available in the demo application.
+- Database / SQL testing was not performed because database access and backend data layer are not available for Sauce Demo.
+- Real payment processing, order history, shipping provider selection, and backend validation were not tested because they are not available in the demo application.
 - Automation testing was not included in this project version.
+- Cross-browser testing was not performed; testing was executed in Google Chrome.
 
 ## 📊 Test Execution Results
 
