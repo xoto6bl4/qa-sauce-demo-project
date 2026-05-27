@@ -81,7 +81,7 @@ The tested areas include:
 
 A manual regression test run was executed in TestRail.
 
-[Test Run Results](04-test-runs/screenshots/testrail-run-summary.png)
+![Test Run Results](04-test-runs/screenshots/testrail-run-summary.png)
 
 | Status | Count | Percentage |
 |---|---:|---:|
@@ -106,5 +106,7 @@ A manual regression test run was executed in TestRail.
 
 [Bug Reports](05-bug-reports/)
 
-## 👤 Kamalov Amal
-Manual QA Junior/Trainee  
+## 👤 Author
+
+**Amal Kamalov**  
+Manual QA Junior/Trainee
