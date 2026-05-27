@@ -43,9 +43,8 @@ The tested areas include:
 - Exploratory testing for user-specific behavior and edge cases
 - Performance testing
 - Security testing
-- Usability testing
+- UI and usability testing
 - Destructive testing
-- UI testing
 - Session testing
 
 ## 📂 Project Structure
@@ -61,24 +60,33 @@ The tested areas include:
 - **Test Cases** – detailed scenarios for Login, Products, Cart, and Checkout flows.
 - **Test Case Summary CSVs** – structured tables with ID, title, priority, and testing type.
 - **Checklists** – quick validation coverage for main application areas.
-- **Bug Reports** – defects documented with steps, actual result, expected result, severity, and priority.
 - **Test Design Notes** – equivalence classes, negative scenarios, edge cases, user-specific behavior, and destructive testing ideas.
+- **Test Run Summary** – execution results from TestRail with passed/failed statistics and related defects.
+- **Test Run Results CSV** – exported TestRail execution results.
+- **Bug Reports** – defects documented with steps, actual result, expected result, severity, priority, Jira ID, and screenshots.
 - **Test Data** – Sauce Demo users, valid/invalid credentials, checkout data, and product/cart data.
 
 ## 🧰 Tools Used
-- GitHub
-- Jira (bug reporting practice)
-- TestRail
-- Chrome browser
+- **GitHub** – project repository and documentation storage
+- **TestRail** – test case management and test execution
+- **Jira** – bug reporting practice
+- **Google Chrome** – manual testing browser
+- **Chrome DevTools** – browser inspection, storage checks, and debugging support
 
 ## 🌐 Test Environment
 - OS: Windows 11
 - Browser: Google Chrome 148.0.7778.179
 - Application URL: https://www.saucedemo.com/
 
+  ## ⚠️ Limitations
+
+- API testing was not included because Sauce Demo does not provide a public REST API for this project scope.
+- Real payment processing, order history, and backend validation were not tested because they are not available in the demo application.
+- Automation testing was not included in this project version.
+
 ## 📊 Test Execution Results
 
-A manual regression test run was executed in TestRail.
+A full manual test run was executed in TestRail.
 
 ![Test Run Results](04-test-runs/screenshots/testrail-run-summary.png)
 
