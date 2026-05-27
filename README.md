@@ -110,7 +110,7 @@ A full manual test run was executed in TestRail.
 |---|---|---|---|---|
 | [BUG-001](05-bug-reports/BUG-001-product-buttons-remain-remove-state/bug-001.md) | Product buttons remain in `Remove` state after `Reset App State` | Major | Medium | QSD-5 |
 | [BUG-002](05-bug-reports/BUG-002-cart-items-remain-visible-after-reset-app-state/bug-002.md) | Cart items remain visible after `Reset App State` on Cart page | Major | Medium | QSD-6 |
-| [BUG-003](05-bug-reports/BUG-003-User-can-complete-checkout-with-empty-cart/bug-003.md) | User can complete checkout with an empty cart | Major | Medium | QSD-7 |
+| [BUG-003](05-bug-reports/BUG-003-user-can-complete-checkout-with-empty-cart/bug-003.md) | User can complete checkout with an empty cart | Major | Medium | QSD-7 |
 | [BUG-004](05-bug-reports/BUG-004-direct-access-to-order-confirmation-page/bug-004.md) | User can access order confirmation page directly without completing checkout | Major | Medium | QSD-8 |
 
 [Bug Reports](05-bug-reports/)
