@@ -74,7 +74,7 @@ The tested areas include:
 
 ## 🌐 Test Environment
 - OS: Windows 11
-- Browser: Google Chrome (latest version)
+- Browser: Google Chrome 148.0.7778.179
 - Application URL: https://www.saucedemo.com/
 
 ## 📊 Test Execution Results
