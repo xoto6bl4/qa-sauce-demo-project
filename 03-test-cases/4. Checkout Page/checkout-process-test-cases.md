@@ -534,10 +534,10 @@ URLs:
 
 | Step | Expected Result |
 |---|---|
-| Navigate to the Cart page and click the 'Checkout' button. | The 'Checkout: Your Information' page (checkout-step-one.html) loads. |
-| Inspect the layout of the First Name, Last Name, and Zip/Postal Code input fields and their respective labels. | Visual anomalies are observed, such as the 'Last Name' input field being misaligned or overlapping with other UI elements compared to the standard layout. |
+| Navigate to the Cart page and click the 'Checkout' button. | For visual_user, the Checkout button is visible but appears visually shifted to the top-right area of the page instead of being aligned near the bottom action area. The button remains clickable and redirects the user to the Checkout: Your Information page. |
 | Enter valid data (First Name: Harry, Last Name: Potter, Zip Code: 12345) and click the 'Continue' button. | The 'Checkout: Overview' page (checkout-step-two.html) loads. |
-| Observe the layout of the 'Cancel' and 'Finish' buttons at the bottom of the page. | The 'Finish' button or other UI elements on the overview page show visual inconsistencies or alignment issues specific to the visual_user profile. |
+| Observe the Checkout Overview page. | Product details, item total, tax, total, Cancel, and Finish button are displayed correctly. No additional visual issues are observed compared to the standard flow. |
+| Click the Finish button. | The user is redirected to the Checkout: Complete page. The confirmation message Thank you for your order! is displayed. |
 
 ## C308 — Verify checkout cannot be completed with an empty cart
 
