@@ -41,7 +41,6 @@ The tested areas include:
 - Functional testing
 - Smoke testing
 - Exploratory testing for user-specific behavior and edge cases
-- Exploratory testing
 - Performance testing
 - Security testing
 - Usability testing
@@ -77,6 +76,33 @@ The tested areas include:
 - OS: Windows 11
 - Browser: Google Chrome (latest version)
 - Application URL: https://www.saucedemo.com/
+
+## 📊 Test Execution Results
+
+A manual regression test run was executed in TestRail.
+
+| Status | Count | Percentage |
+|---|---:|---:|
+| Passed | 128 | 97% |
+| Failed | 4 | 3% |
+| Blocked | 0 | 0% |
+| Skipped | 0 | 0% |
+| Untested | 0 | 0% |
+| **Total** | **132** | **100%** |
+
+[Test Run Summary](04-test-runs/test-run-summary.md)  
+[Test Run Results CSV](04-test-runs/test-run-results.csv)
+
+## 🐞 Defects Found
+
+| Bug ID | Summary | Severity | Priority | Jira Issue |
+|---|---|---|---|---|
+| BUG-001 | Product buttons remain in `Remove` state after `Reset App State` | Major | Medium | QSD-5 |
+| BUG-002 | Cart items remain visible after `Reset App State` on Cart page | Major | Medium | QSD-6 |
+| BUG-003 | User can complete checkout with an empty cart | Major | Medium | QSD-7 |
+| BUG-004 | User can access order confirmation page directly without completing checkout | Major | Medium | QSD-8 |
+
+[Bug Reports](05-bug-reports/)
 
 ## 👤 Kamalov Amal
 Manual QA Junior/Trainee  
