@@ -41,10 +41,10 @@ The tested areas include:
 - Functional testing
 - Smoke testing
 - Exploratory testing for user-specific behavior and edge cases
-- Performance testing
-- Security testing
+- Basic Performance Observations
+- Basic Security Checks (Session handling, direct URL access restrictions)
 - UI and usability testing
-- Destructive testing
+- Edge case testing
 - Session testing
 
 ## 📂 Project Structure
