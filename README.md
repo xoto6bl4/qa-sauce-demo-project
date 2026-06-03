@@ -78,7 +78,7 @@ The tested areas include:
 - Browser: Google Chrome 148.0.7778.179
 - Application URL: https://www.saucedemo.com/
 
-  ## ⚠️ Limitations
+## ⚠️ Limitations
 
 - API testing was not included because Sauce Demo does not provide a public REST API for this project scope.
 - Database / SQL testing was not performed because database access and backend data layer are not available for Sauce Demo.
